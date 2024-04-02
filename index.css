@@ -8,6 +8,7 @@
 }
 body{
     /* border: 2px solid red; */
+    overflow-x:hidden;
    
 }
 .phone-div{
@@ -325,10 +326,13 @@ footer ul li a:hover{
         left: -60px;
     }
     .signup-div{
-        width:300px;
-        margin-left: -129px;
+        width: 300px;
+        margin-left: -116px;
     }
-
+body{
+    overflow-x: hidden;
+    /* border: 3px solid red; */
+}
     .getapp-div {
     
       
@@ -344,10 +348,44 @@ footer ul li a:hover{
 
 @media screen and (max-width:415px) {
     .two-main-div {
-        margin-left: 15px;
+       
     }
     .two-main-div {
-        margin-left: 48px;
-        width: 400px;
+        margin-left: -48px;
+        width: 200px;
     }
+}
+
+@media  screen and (max-width:415px) {
+
+    .signup-div{
+        margin-left: -59px;
+    }
+    
+}
+
+@media  screen and (max-width:307px) {
+
+    .or-div{
+        
+    }
+    .facebook-div{
+        display: inline-block;
+    }
+    .forget-div {
+        width: fit-content;
+        margin-left: 103px;
+    }
+    .login-div {
+        width: 259px;
+        position: relative;
+        left: -43px;
+    }
+    .signup-div{
+        width: 259px;
+        
+    margin-left: -42px;
+
+    }
+
 }
